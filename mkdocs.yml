@@ -14,6 +14,8 @@ nav:
   - Multi:
     -  Testing structure: step1.md
   
-theme: readthedocs
+# theme: readthedocs
+theme:
+  name: material
 extra_css: 
   - stylesheet/extra.css
