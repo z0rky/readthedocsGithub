@@ -10,6 +10,6 @@ nav:
     - Step 5 Verify installation: step5.md
   - Testing: testing.md
   
-theme:
-    name: mkdocs
-    nav_style: dark
+theme: readthedocs
+extra_css: 
+  - stylesheet/extra.css
