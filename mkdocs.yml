@@ -1,14 +1,18 @@
-site_name: testing name
+site_name: Rimses Docs
 
 nav:
   # - Home: index.md
-  - Step 1 Create the Rimses database: step1.md
-  - Step 2 Install the Rimses program on a workstation or terminal server: step2.md
-  - Step 3 Set referential integrity on the Rimses database structure : step3.md
+  - Rimses:
+    - Single:
+        - Step 1 Create the Rimses database: step1.md
+        - Step 2 Install the Rimses program on a workstation or terminal server: step2.md
+        - Step 3 Set referential integrity on the Rimses database structure : step3.md
   - Final steps:
     - Step 4 Install add-ons? : step4.md
     - Step 5 Verify installation: step5.md
   - Testing: testing.md
+    - Multi:
+        -Testing structure: step1.md
   
 theme: readthedocs
 extra_css: 
