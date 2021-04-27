@@ -13,7 +13,14 @@ nav:
   - Testing: testing.md
   # - Multi:
   #   -Testing structure: step1.md
-  
+
+formats:
+  - pdf
+
+mkdocs:
+  configuration: mkdocs.yml
+  fail_on_warning: false
+
 theme: readthedocs
 # theme:
 #   name: material
